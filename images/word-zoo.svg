@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-label="zoo entrance">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#e8f8ff"/><stop offset="1" stop-color="#fff"/></linearGradient>
+    <linearGradient id="gate" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#44c7a5"/><stop offset="1" stop-color="#159a83"/></linearGradient>
+    <filter id="shadow" x="-.2" y="-.2" width="1.4" height="1.5"><feDropShadow dx="0" dy="5" stdDeviation="4" flood-color="#194052" flood-opacity=".18"/></filter>
+  </defs>
+  <rect x="13" y="18" width="134" height="125" rx="29" fill="url(#sky)"/>
+  <circle cx="126" cy="38" r="11" fill="#ffd65a"/>
+  <path d="M16 112c27-18 52-19 74-2 20-17 40-16 58-4v32H16Z" fill="#b8e9c7"/>
+  <g filter="url(#shadow)">
+    <path d="M26 79h108v57H26z" fill="url(#gate)" stroke="#128d7a" stroke-width="4"/>
+    <path d="M39 84v52m17-52v52m17-52v52m17-52v52m17-52v52m17-52v52" stroke="#d8fff1" stroke-width="5" stroke-linecap="round"/>
+    <path d="M18 80 80 47l62 33Z" fill="#ff9854" stroke="#e57a3c" stroke-width="4" stroke-linejoin="round"/>
+    <rect x="48" y="27" width="64" height="40" rx="12" fill="#fff" stroke="#f2c849" stroke-width="4"/>
+    <text x="80" y="54" text-anchor="middle" font-family="Arial,sans-serif" font-weight="900" font-size="23" fill="#248c79">ZOO</text>
+  </g>
+  <path d="M64 136v-14a16 16 0 0 1 32 0v14" fill="#fff5d9" stroke="#128d7a" stroke-width="4"/>
+  <circle cx="80" cy="113" r="4" fill="#ff9854"/>
+</svg>
